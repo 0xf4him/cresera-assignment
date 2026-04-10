@@ -1,0 +1,23 @@
+{
+  "name": "test-task-cresera",
+  "version": "1.0.0",
+  "description": "A gas-optimized, multi-reward ERC-20 staking contract. Users stake a single ERC-20 and earn rewards in an arbitrary (bounded) number of reward tokens, each with its own independent emission rate and duration.",
+  "main": "index.js",
+  "scripts": {
+    "test": "hardhat test",
+    "verify": "node scripts/compile-check.js",
+    "deploy": "hardhat run scripts/deploy.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^6.1.2",
+    "hardhat": "^2.28.6",
+    "solc": "^0.8.24"
+  }
+}

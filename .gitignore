@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Foundry
+out/
+cache/
+broadcast/
+
+# Hardhat
+artifacts/
+typechain-types/
+
+# Coverage
+coverage/
+coverage.json
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# Logs & OS
+*.log
+.DS_Store
